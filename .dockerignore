@@ -5,3 +5,5 @@ Dockerfile
 docker-compose.yml
 _site
 Gemfile.lock
+apidocs/cloud-api-source
+tests
