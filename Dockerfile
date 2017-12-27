@@ -22,6 +22,8 @@ ADD https://raw.githubusercontent.com/docker/docker-ce/17.09/components/engine/a
 ADD https://raw.githubusercontent.com/docker/docker-ce/17.10/components/engine/api/swagger.yaml ${SOURCE}/engine/api/v1.33/swagger.yaml
 ADD https://raw.githubusercontent.com/docker/docker-ce/17.11/components/engine/api/swagger.yaml ${SOURCE}/engine/api/v1.34/swagger.yaml
 
+RUN chmod -R 644 ${SOURCE}/engine/api/
+
 # TODO COPY/REPLICATE SWAGGER BOILERPLATING TO EACH DIRECTORY!!
 
 # Set vars used by fetch-upstream-resources.sh script
