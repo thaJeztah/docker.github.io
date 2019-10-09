@@ -2,6 +2,7 @@
 datafolder: docker-app
 datafile: docker_app_push
 title: docker app push
+no_read_time: true
 ---
 <!--
 Sorry, but the contents of this page are automatically generated from

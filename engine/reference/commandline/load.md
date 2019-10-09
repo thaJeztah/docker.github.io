@@ -4,6 +4,7 @@ datafile: docker_load
 title: docker load
 redirect_from:
   - /edge/engine/reference/commandline/load/
+no_read_time: true
 ---
 <!--
 Sorry, but the contents of this page are automatically generated from

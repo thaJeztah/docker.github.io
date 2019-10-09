@@ -4,6 +4,7 @@ datafile: docker_checkpoint_create
 title: docker checkpoint create
 redirect_from:
   - /edge/engine/reference/commandline/checkpoint_create/
+no_read_time: true
 ---
 <!--
 Sorry, but the contents of this page are automatically generated from

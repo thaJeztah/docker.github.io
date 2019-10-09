@@ -2,6 +2,7 @@
 datafolder: docker-app
 datafile: docker_app_render
 title: docker app render
+no_read_time: true
 ---
 <!--
 Sorry, but the contents of this page are automatically generated from
