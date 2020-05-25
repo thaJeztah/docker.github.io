@@ -1,9 +1,11 @@
+{% if include.MOUSEFLOW_ID and include.MOUSEFLOW_ID != '' %}
 <script type="text/javascript">
   window._mfq = window._mfq || [];
   (function() {
   var mf = document.createElement("script");
   mf.type = "text/javascript"; mf.defer = true;
-  mf.src = "//cdn.mouseflow.com/projects/e9e8497f-ca8a-426e-b0a1-a78247e85aa4.js";
+  mf.src = "//cdn.mouseflow.com/projects/{{ include.MOUSEFLOW_ID }}.js";
   document.getElementsByTagName("head")[0].appendChild(mf);
   })();
 </script>
+{% else %}<!-- No Mouseflow ID configured, Mouseflow is disabled -->{% endif %}

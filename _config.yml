@@ -18,6 +18,7 @@ exclude: ["_scripts", "tests", "apidocs/layouts", "Gemfile", "hooks", "index.htm
 # Google Analytics, etc.
 # TODO these should only be set when building for production, or passed as an environment variable when building
 google_analytics: GTM-WL2QLG5
+mouseflow_id: "e9e8497f-ca8a-426e-b0a1-a78247e85aa4"
 
 
 # Component versions -- address like site.docker_ce_version

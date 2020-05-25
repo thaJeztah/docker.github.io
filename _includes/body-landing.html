@@ -864,4 +864,5 @@
       if (container) container.setAttribute("data-os", os);
     };
   </script>
+  {% if site.mouseflow_id != '' %}{% include analytics/mouseflow.html MOUSEFLOW_ID=site.mouseflow_id %}{% endif %}
 </body>
