@@ -6,6 +6,8 @@ toc_min: 1
 toc_max: 2
 redirect_from:
 - /desktop/opensource/
+- /docker-for-mac/opensource/
+- /docker-for-windows/opensource/
 ---
 
 Docker Desktop is an easy-to-install application for your Mac or Windows environment that enables you to build and share containerized applications and microservices. Docker Desktop includes [Docker Engine](../engine/), Docker CLI client, [Docker Compose](../compose/), [Docker Content Trust](../engine/security/trust.md), [Kubernetes](https://github.com/kubernetes/kubernetes/), and [Credential Helper](https://github.com/docker/docker-credential-helpers/).
@@ -44,3 +46,26 @@ For information about new features, improvements, and bug fixes in Docker Deskto
 
 * [Docker Desktop for Mac Release notes](mac/release-notes.md)
 * [Docker Desktop for Windows Release notes](windows/release-notes.md)
+
+## Legal
+
+Docker and the Docker logo are trademarks of Docker Inc., registered in the U.S.
+and other countries.
+
+Docker Desktop is licensed under the [Docker Subscription Service Agreement](https://www.docker.com/legal/docker-subscription-service-agreement){: target="_blank" rel="noopener" class="_" id="dkr_docs_relnotes_btl"}.
+
+By downloading Docker Desktop, you agree to these updated [terms](https://www.docker.com/legal/docker-subscription-service-agreement){: target="_blank" rel="noopener" class="_"},
+the [Docker Data Processing Agreement](https://www.docker.com/legal/data-processing-agreement){: target="_blank" rel="noopener" class="_" id="dkr_docs_relnotes_btl"},
+and the [Data Privacy Policy](https://www.docker.com/legal/docker-privacy-policy){: target="_blank" rel="noopener" class="_" id="dkr_docs_relnotes_btl"}.
+
+A copy of the Docker Software EULA can also be downloaded from Docker Desktop.
+To download the agreement, choose ![whale menu](mac/images/whale-x.png){: .inline}
+→ &nbsp;**About Docker Desktop** and then **License Agreement**.
+
+Docker Desktop is built using open source software. For information about the
+licensing of open source components in Docker Desktop, choose ![whale menu](mac/images/whale-x.png){: .inline}
+→ &nbsp;**About Docker Desktop** and then **Acknowledgements**.
+
+Docker Desktop distributes some components that are licensed under the
+GNU General Public License. You can [download the source for these components
+[here](https://download.docker.com/opensource/License.tar.gz).
