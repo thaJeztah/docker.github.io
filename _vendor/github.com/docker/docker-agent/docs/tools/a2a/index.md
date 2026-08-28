@@ -27,6 +27,8 @@ toolsets:
       X-Tenant: "acme"
 ```
 
+The `Authorization` header shown above authenticates to endpoints served with `docker agent serve a2a --auth-token`.
+
 ## Properties
 
 | Property   | Type             | Required | Description                                                                                              |
@@ -34,6 +36,8 @@ toolsets:
 | `url`      | string           | ✓        | A2A server endpoint URL (must include scheme).                                                           |
 | `name`     | string           | ✗        | Tool name registered for the remote agent. Defaults to a name derived from the server's agent card.     |
 | `headers`  | map\[string\]string | ✗     | Extra HTTP headers sent with every request (useful for `Authorization`, tenant selection, tracing, \u2026). |
+
+When Docker Desktop is running, eligible requests use its PAC adapter before environment proxy settings. Set `DOCKER_AGENT_DISABLE_DESKTOP_PROXY=1` (or `true`, `yes`, or `on`) to restore standard `HTTP_PROXY`, `HTTPS_PROXY`, `ALL_PROXY`, and `NO_PROXY` routing; `NO_PROXY` does not bypass Docker Desktop PAC selection. Docker Agent does not evaluate PAC files or URLs directly—see [Docker Desktop proxy](../fetch/index.md#docker-desktop-proxy).
 
 > [!TIP]
 > **See also**
